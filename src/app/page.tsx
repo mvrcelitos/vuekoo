@@ -1,8 +1,9 @@
+import Link from "next/link";
+import { Github, Twitter } from "lucide-react";
+
 import { Footer } from "@/components/footer";
 import { ModeToggle } from "@/components/mode-toggle";
 import { buttonVariants } from "@/components/ui/button";
-import { Github, Star, Twitter } from "lucide-react";
-import Link from "next/link";
 
 export default function Page() {
    return (

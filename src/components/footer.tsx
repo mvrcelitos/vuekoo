@@ -1,7 +1,4 @@
 import Link from "next/link";
-import { Fingerprint } from "lucide-react";
-
-import { ModeToggle } from "@/components/mode-toggle";
 
 const Footer = () => {
    return (
