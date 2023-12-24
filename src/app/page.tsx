@@ -7,9 +7,9 @@ import { buttonVariants } from "@/components/ui/button";
 
 export default function Page() {
    return (
-      <div className="min-h-svh flex flex-col">
+      <div className="flex min-h-svh flex-col">
          <main className="mx-auto flex h-full w-full max-w-2xl grow grid-cols-1 flex-col items-start gap-8 p-8 md:py-16">
-            <div className="xs:flex-row xs:justify-between xs:items-center flex w-full flex-col gap-2">
+            <div className="flex w-full flex-col gap-2 xs:flex-row xs:items-center xs:justify-between">
                <Link href="/" className="flex flex-col">
                   <h1 className="text-2xl font-bold uppercase text-zinc-950 dark:text-zinc-50">
                      VUEK<span className="text-primary">O</span>O
@@ -43,7 +43,7 @@ export default function Page() {
                            <h3 className="text-base font-medium text-zinc-900 underline-offset-2 group-hover/li:underline dark:text-zinc-100">
                               vuekoo/auth
                            </h3>
-                           <span className="-mt-1 flex select-none items-center justify-center rounded-full bg-primary px-1 py-0.5 text-xs">
+                           <span className="-mt-1 flex select-none items-center justify-center rounded-full bg-primary px-1 py-0.5 text-xs font-medium">
                               NEW
                            </span>
                         </div>
