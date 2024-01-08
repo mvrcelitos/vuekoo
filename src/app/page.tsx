@@ -36,7 +36,7 @@ export default function Page() {
                   className="relative text-lg font-semibold text-zinc-950 before:absolute before:-left-3 before:top-1/2 before:-translate-y-1/2 before:opacity-50 before:hover:content-['#'] dark:text-zinc-50">
                   PROJECTS
                </h2>
-               <ul className="flex flex-col gap-1">
+               <ul className="flex flex-col gap-2">
                   <li className="group/li border-l-2 border-l-primary pl-4 duration-150 hover:border-l-primary-active">
                      <Link href="https://auth.vuekoo.com" className="grid grid-cols-1">
                         <div className="flex items-center gap-1">
@@ -49,6 +49,24 @@ export default function Page() {
                         </div>
                         <p className="-mt-1 truncate bg-transparent text-sm text-zinc-600 dark:text-zinc-300">
                            An saas to manage the authentication and the users permissions.
+                        </p>
+                     </Link>
+                  </li>
+                  <li className="group/li border-l-2 border-l-primary pl-4 duration-150 hover:border-l-primary-active">
+                     <Link href="https://sql.vuekoo.com" className="grid grid-cols-1">
+                        <div className="flex items-center gap-1">
+                           <h3 className="text-base font-medium text-zinc-900 underline-offset-2 group-hover/li:underline dark:text-zinc-100">
+                              vuekoo/sql
+                           </h3>
+                           <span className="-mt-1 flex select-none items-center justify-center rounded-full bg-primary px-1 py-0.5 text-xs font-medium">
+                              NEW
+                           </span>
+                           <span className="-mt-1 flex select-none items-center justify-center rounded-full bg-primary px-1 py-0.5 text-xs font-medium">
+                              WIP
+                           </span>
+                        </div>
+                        <p className="-mt-1 truncate bg-transparent text-sm text-zinc-600 dark:text-zinc-300">
+                           An web application to visualize and edit your databases.
                         </p>
                      </Link>
                   </li>
